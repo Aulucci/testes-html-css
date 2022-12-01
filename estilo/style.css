@@ -1,0 +1,11 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#foto{
+    border-radius: 30%;
+}
+a{
+    color: rgb(53, 53, 250);
+}
