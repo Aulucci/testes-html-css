@@ -46,16 +46,22 @@ nav>section{
     display: block;
     
 }
+nav>p{
+    text-align: center;
+}
 nav >section>a{
     color: white;
     font-weight: bolder;
     font-style: normal;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
     
 }
 nav>section>a:hover{
     background-color: #5DBF56;
     height: 100px
+    
 
 }
 div{
