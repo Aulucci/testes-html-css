@@ -55,7 +55,10 @@ a:hover{
 }
 
 section{
-    padding: 10vh 0px 10vh 30px;
+    /* padding: 10vh 0px 10vh 30px; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 3vw;
