@@ -27,6 +27,7 @@
             border-collapse: collapse;
             margin: auto;
             background-color: white;
+            position: relative;
         }
 
         caption{
@@ -46,6 +47,15 @@
             color: white;
             
             
+        }
+        thead > tr >th{
+            position: sticky;
+            top: 0;
+            background-color:  darkslategrey;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgba(127, 255, 212, 0.39);
         }
 
         .num{
