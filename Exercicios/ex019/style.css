@@ -1,0 +1,22 @@
+@charset "UTF-8"
+*{
+
+}
+body{
+    background-image: linear-gradient(180deg, rgb(189, 245, 189), rgb(175, 175, 255), rgb(255, 189, 255));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 61, 153);
+}
+h1#principal{
+    text-align: center;
+    color: rgb(140, 233, 117);
+    background-image: linear-gradient(90deg, blue, violet, red);
+}
+h2{
+    color: rgb(146, 0, 190);
+}
+.basico{
+    background-color: rgba(255, 0, 0, 0.24);
+}
