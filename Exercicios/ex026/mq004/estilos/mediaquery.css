@@ -2,4 +2,17 @@
 
 /*Demais Midias*/
 
-@media
+@media print{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*tablet*/
+    
+}
+
+@media screen and (min-width: 993px) and (max-width:1200px){ /*desktop*/
+
+}
+@media screen and (min-width: 1201px){ /*telas grandes*/
+
+}
