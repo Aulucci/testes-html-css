@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: lightblue;
+}
+
+header{
+    background-image: url(../../../ex022/Imagens/wallpaper005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(180deg, white, rgba(0, 0, 255, 0.774), blue);*/
+    
+}
+header > h1{
+    padding: 10px;
+    text-align: center; 
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.404);
+}
+
+span#menu{
+    background-color: blue;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#menu:hover{
+    background-color: rgba(37, 37, 163, 0.774);
+    color: black;
+    cursor: pointer;
+    
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.699);
+    color: white;
+    font-weight: bold;
+    border: 1px solid  rgba(255, 255, 255, 0.404);
+    border-radius: 20px;
+}
+
+menu > ul > li > a:hover{
+    background-color: rgba(0, 0, 255, 0.356);
+    color: black;
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
