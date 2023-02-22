@@ -93,7 +93,7 @@ div>section>h4{
 }
 div>section>ul{
     display: inline-block;
-    list-style-type: georgian;
+    text-align: left;
     position: relative;
     columns: 2;
     list-style-position: inside;
